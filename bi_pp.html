@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Battery Info - Ampere</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --accent-color: #00e676;
+            --text-primary: #f0f6fc;
+            --text-secondary: #8b949e;
+            --border-color: #30363d;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header h1 {
+            color: var(--accent-color);
+            margin-bottom: 5px;
+            font-size: 24px;
+        }
+
+        .tab-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .tab-btn {
+            background-color: var(--card-bg);
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+            padding: 10px 24px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .tab-btn.active {
+            background-color: var(--accent-color);
+            color: #000;
+            border-color: var(--accent-color);
+        }
+
+        .content-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+
+        .lang-content {
+            display: none;
+        }
+
+        .lang-content.active {
+            display: block;
+        }
+
+        h2 {
+            color: var(--accent-color);
+            font-size: 18px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-top: 24px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+        }
+
+        p {
+            color: var(--text-secondary);
+        }
+
+        .footer {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 12px;
+            margin-top: 40px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1 id="app-title">Battery Info - Ampere</h1>
+        <p id="doc-title">Privacy Policy / 隐私政策</p>
+    </div>
+
+    <!-- Top Language Tabs -->
+    <div class="tab-container">
+        <button class="tab-btn" id="btn-en" onclick="switchTab('en')">English</button>
+        <button class="tab-btn" id="btn-zh" onclick="switchTab('zh')">中文 (Chinese)</button>
+    </div>
+
+    <!-- English Content -->
+    <div id="content-en" class="lang-content content-card">
+        <p><strong>Last Updated:</strong> August 16, 2026</p>
+        
+        <h2>1. Overview</h2>
+        <p>Welcome to <strong>Battery Info - Ampere</strong> ("App"). This application is developed and operated by <strong>Abdul Mujahid</strong> ("Developer", "Provider", "We", "Us"). We respect your privacy and are committed to protecting it through compliance with this policy. This Privacy Policy explains our practices regarding data collection, usage, and security.</p>
+
+        <h2>2. Advertisements & In-App Purchases (Huawei SDKs)</h2>
+        <ul>
+            <li><strong>Huawei Petal Ads SDK:</strong> The free version of this App displays advertisements provided by the Huawei Petal Ads SDK. To serve relevant ad content and prevent fraud, Huawei Petal Ads may collect anonymous device identifiers (such as OAID), network connection indicators, and basic hardware parameters.</li>
+            <li><strong>Huawei In-App Purchases (IAP) SDK:</strong> We offer an optional "Remove Ads" digital item using the Huawei In-App Purchases SDK. All financial transactions and order validations are processed securely through the official Huawei Mobile Services (HMS) infrastructure. We do not store or access your payment credentials.</li>
+        </ul>
+
+        <h2>3. Background Service & Local Data Storage</h2>
+        <ul>
+            <li><strong>Real-Time Monitoring Service:</strong> The App uses an active background service to continuously measure battery performance indicators, including current (mA), voltage, wattage, and charging stability.</li>
+            <li><strong>Local Analytics Storage:</strong> All battery health logs, daily usage trends, and diagnostic statistics are saved strictly on your local device storage. We do not transfer or sync your battery analytics to external servers.</li>
+            <li><strong>Ongoing Notification Control:</strong> A persistent status notification is required for reliable background monitoring. You can enable or disable this background tracking service at any time directly from the App Settings screen.</li>
+        </ul>
+
+        <h2>4. Optional System Permissions</h2>
+        <p>To deliver accurate battery monitoring during long standby sessions or after rebooting, the App may request the following optional system permissions:</p>
+        <ul>
+            <li><strong>Ignore Battery Optimization:</strong> Recommended to prevent the Android operating system from closing the background monitoring process.</li>
+            <li><strong>Auto-Start:</strong> Recommended to allow the background service to automatically resume collecting battery statistics after your device restarts.</li>
+        </ul>
+        <p><em>Note: These permissions are entirely optional. Denying them will not limit your access to the main foreground screens of the App.</em></p>
+
+        <h2>5. Developer Contact</h2>
+        <p>If you have any questions or feedback regarding this Privacy Policy, please contact us directly:</p>
+        <ul>
+            <li><strong>Developer / Provider:</strong> Abdul Mujahid</li>
+            <li><strong>Email:</strong> abdulmujahidpersonal@gmail.com</li>
+        </ul>
+    </div>
+
+    <!-- Chinese Content -->
+    <div id="content-zh" class="lang-content content-card">
+        <p><strong>最后更新日期：</strong> 2026年8月16日</p>
+        
+        <h2>1. 概述</h2>
+        <p>欢迎使用 <strong>电池信息 - Ampere</strong>（以下简称“本应用”）。本应用由 <strong>Abdul Mujahid</strong>（以下简称“开发者”、“提供商”或“我们”）开发并运营。我们高度重视您的个人隐私保护。本隐私政策旨在向您说明本应用在提供电池监测服务时的信息收集、使用及数据安全保护机制。</p>
+
+        <h2>2. 广告与应用内购买（华为 SDK）</h2>
+        <ul>
+            <li><strong>华为 Petal Ads（广告）SDK：</strong> 本应用的免费版本包含由华为 Petal Ads SDK 提供的广告服务。为向您展示相关的广告内容并防止欺诈行为，华为 Petal Ads 可能会收集匿名的设备标识符（如 OAID）、网络连接状态及基础硬件参数。</li>
+            <li><strong>华为应用内支付（IAP）SDK：</strong> 本应用集成华为应用内支付 SDK，提供“移除广告”等可选增值服务。所有支付交易流程及订单验证均通过官方华为移动服务（HMS）生态系统安全处理。开发者不会获取或存储您的任何金融支付凭证。</li>
+        </ul>
+
+        <h2>3. 后台服务与本地数据存储</h2>
+        <ul>
+            <li><strong>实时后台监测服务：</strong> 本应用运行后台服务以持续测量电池的核心性能指标，包括实时电流（mA）、电压、功率及充电稳定性。</li>
+            <li><strong>本地数据存储：</strong> 所有收集到的电池健康日志、每日历史统计及分析数据均完全存储于您的本地设备中。开发者不会将您的电池分析数据上传或同步至任何外部服务器。</li>
+            <li><strong>常驻通知控制：</strong> 后台服务需要通过常驻通知保持稳定运行。您可以随时在应用内的“设置”界面自由开启或关闭后台监测服务。</li>
+        </ul>
+
+        <h2>4. 可选权限说明</h2>
+        <p>为确保在长期待机或设备重启后能持续提供准确的电池统计数据，本应用可能会申请以下可选系统权限：</p>
+        <ul>
+            <li><strong>忽略电池优化（Ignore Battery Optimization）：</strong> 建议开启，以防止操作系统自动清理或中断后台监测服务。</li>
+            <li><strong>自启动权限（Auto-Start）：</strong> 建议开启，以便设备重启后自动恢复电池数据的统计与收集。</li>
+        </ul>
+        <p><em>注意：上述权限均为完全可选权限。拒绝授予这些权限不会影响您正常使用本应用的前台功能。</em></p>
+
+        <h2>5. 联系开发者</h2>
+        <p>如果您对本隐私政策有任何疑问、意见或建议，请通过以下方式直接与开发者联系：</p>
+        <ul>
+            <li><strong>开发者 / 提供商名称：</strong> Abdul Mujahid</li>
+            <li><strong>电子邮箱：</strong> abdulmujahidpersonal@gmail.com</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        &copy; 2026 Abdul Mujahid. All Rights Reserved.
+    </div>
+</div>
+
+<script>
+    function currentTab() {
+        // Get user language from browser/device
+        var userLang = navigator.language || navigator.userLanguage;
+        
+        // Check if language or locale indicates Chinese (zh, zh-CN, zh-TW, etc.)
+        if (userLang && userLang.toLowerCase().startsWith('zh')) {
+            switchTab('zh');
+        } else {
+            switchTab('en');
+        }
+    }
+
+    function switchTab(lang) {
+        // Hide all language content divs
+        var contents = document.getElementsByClassName('lang-content');
+        for (var i = 0; i < contents.length; i++) {
+            contents[i].classList.remove('active');
+        }
+
+        // Deactivate all tab buttons
+        var buttons = document.getElementsByClassName('tab-btn');
+        for (var j = 0; j < buttons.length; j++) {
+            buttons[j].classList.remove('active');
+        }
+
+        // Show selected language content and highlight tab
+        document.getElementById('content-' + lang).classList.add('active');
+        document.getElementById('btn-' + lang).classList.add('active');
+    }
+
+    // Initialize auto language detection on page load
+    window.onload = currentTab;
+</script>
+
+</body>
+                                                                                    </html>
+                                                                                    
